@@ -395,7 +395,8 @@ blockquote p {
     display: block;
     margin: 0 1.6rem;
     padding: 0.8rem 0;
-    color: #7a8288;
+    color: #37474f;
+    font-weight: bold;
     text-decoration: none;
   }
   .menus_items li a::before {
@@ -463,12 +464,14 @@ blockquote p {
   font-size: 1.8rem;
 }
 .page article a {
-  color: #494e52;
+  color: #2196f3;
+  text-decoration: none;
+  font-weight: bold;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .page article a:hover {
-  color: #c62641;
+  color: #1353d7;
 }
 .page article .highlight {
   overflow: auto;
