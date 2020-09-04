@@ -793,7 +793,7 @@ blockquote p {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  color: #9ba1a6;
+  color: #37474f;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
@@ -802,31 +802,23 @@ blockquote p {
   border-top: 1px solid #bdc1c4;
 }
 #page_footer a {
-  color: #9ba1a6;
+  color: #37474f;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  font-weight: bold;
 }
 #page_footer a:hover {
-  color: #000;
+  color: #2196f3;
 }
 .footer_wrap {
-  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   clear: both;
-  margin-top: 2em;
-  padding-left: 2.5em;
-  font-size: 1.28rem;
-}
-@media (min-width: 66.67em) {
-  .footer_wrap {
-    max-width: 1200px;
-  }
-}
-@media (min-width: 34em) {
-  .footer_wrap {
-    padding: 0 1em 2em;
-  }
+  margin-top: 0.8em;
+  padding-right: 3.5em;
+  padding-left: 3.5em;
+  color: #37474f;
+  font-size: 1.68rem;
 }
 .nav-wrap {
   position: fixed;
