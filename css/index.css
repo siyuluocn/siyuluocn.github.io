@@ -551,7 +551,9 @@ blockquote p {
 }
 .author-discrip h3 {
   margin: 0px;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: bold;
 }
 .author-discrip .author-bio {
   font-size: 1.2rem;
