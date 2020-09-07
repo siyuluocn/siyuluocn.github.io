@@ -460,8 +460,11 @@ blockquote p {
 }
 .page article h3 {
   font-size: 2.6rem;
+  margin-block-end: 0.5em;
 }
-.page article p,
+.page article p {
+  margin-block-start: 0em;
+}
 .page article li {
   font-size: 1.8rem;
 }
