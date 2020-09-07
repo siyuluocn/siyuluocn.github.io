@@ -15,16 +15,36 @@
 <hr>
 <h3 id="在读本科生"><a href="#在读本科生" class="headerlink" title="在读本科生"></a>在读本科生</h3><p>（按年级、拼音排序）</p>
 <hr>
-<h3 id="已毕业博士生"><a href="#已毕业博士生" class="headerlink" title="已毕业博士生"></a>已毕业博士生</h3><hr>
+<h3 id="已毕业博士生"><a href="#已毕业博士生" class="headerlink" title="已毕业博士生"></a>已毕业博士生</h3><ul>
+<li>郑建兴2015&amp;&amp;博士生（山西大学工作），与张博锋老师合作指导</li>
+</ul>
+<hr>
 <h3 id="已毕业硕士生"><a href="#已毕业硕士生" class="headerlink" title="已毕业硕士生"></a>已毕业硕士生</h3><p>（按年级、拼音排序）</p>
 <ul>
-<li>蒋明&amp;&amp;2017&amp;&amp;本科生（上海大学读研），独立指导</li>
+<li>赵梅&amp;&amp;2013&amp;&amp;硕士生（本科山东大学），独立指导</li>
+<li>张驰&amp;&amp;2016&amp;&amp;工程硕士生（本科上海大学)，独立指导</li>
 </ul>
 <hr>
 <h3 id="已毕业本科生"><a href="#已毕业本科生" class="headerlink" title="已毕业本科生"></a>已毕业本科生</h3><p>（按年级、拼音排序）</p>
 <ul>
 <li>蒋明&amp;&amp;2017&amp;&amp;本科生（上海大学读研），独立指导</li>
-<li>蒋明&amp;&amp;2017&amp;&amp;本科生（上海大学读研），独立指导</li>
+<li>吴浩&amp;&amp;2017&amp;&amp;本科生（上海大学读研），独立指导</li>
+<li>吴婷&amp;&amp;2017&amp;&amp;本科生（浙江大学读研），独立指导</li>
+<li>程珏明&amp;&amp;2017&amp;&amp;本科生（香港大学读研），独立指导</li>
+<li>周瑶&amp;&amp;2017&amp;&amp;本科生（中国建设银行工作），独立指导</li>
+<li>程君实&amp;&amp;2016&amp;&amp;本科生（交通银行工作），独立指导</li>
+<li>缪存涵&amp;&amp;2016&amp;&amp;本科生，独立指导</li>
+<li>张晨迪&amp;&amp;2016&amp;&amp;本科生（澳大利亚读研），独立指导</li>
+<li>张洋&amp;&amp;2015&amp;&amp;本科生，独立指导</li>
+<li>张成玉&amp;&amp;2015&amp;&amp;本科生，独立指导</li>
+<li>郁鑫&amp;&amp;2015&amp;&amp;本科生，独立指导</li>
+<li>李旺&amp;&amp;2014&amp;&amp;本科生（上海大学读研），独立指导</li>
+<li>杨伟成&amp;&amp;2014&amp;&amp;本科生，独立指导</li>
+<li>陈逸韵&amp;&amp;2014&amp;&amp;本科生（华东师范大学出版社工作），独立指导</li>
+<li>李亚强&amp;&amp;2013&amp;&amp;本科生，独立指导</li>
+<li>王辛&amp;&amp;2013&amp;&amp;本科生（上海大学读研），独立指导</li>
+<li>彭先玲&amp;&amp;2013&amp;&amp;本科生（上海大学读研），独立指导</li>
+<li>徐金&amp;&amp;2013&amp;&amp;本科生，独立指导</li>
 </ul>
 <!-- 下面是调整页面风格的代码，和页面内容无关 -->
 
@@ -200,6 +220,10 @@
             for(var j = 0; j < liList.length; j++)
             {
                 var splitStr = liList[j].innerText.split("&&");
+                while(splitStr.length < 3)
+                {
+                    splitStr.push("");
+                }
 
                 var divPlain = document.createElement('div');
 
