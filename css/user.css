@@ -10,3 +10,15 @@
   font-family: "Damion";
   src: url("/fonts/Damion-Regular.ttf");
 }
+body {
+  background-color: #fff;
+  background-image: url("/img/diamond-eyes.png");
+}
+.side-card {
+  background-color: #fff;
+  border-radius: 2px;
+}
+.page {
+  background-color: #fff;
+  border-radius: 2px;
+}
