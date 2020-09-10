@@ -15,12 +15,12 @@ body {
   background-image: url("/img/brick-wall.png");
 }
 .side-card {
-  background-color: #fff;
-  border-radius: 2px;
+  background-color: #f8f9f9;
+  border-radius: 3px;
 }
 .page {
-  background-color: #fff;
-  border-radius: 2px;
+  background-color: #f8f9f9;
+  border-radius: 3px;
 }
 .author-bio {
   text-align: center;
@@ -426,7 +426,7 @@ blockquote p {
     margin: 0 1.6rem;
     padding: 0.8rem 0;
     color: #14446a;
-    font-weight: bold;
+    font-weight: normal;
     text-decoration: none;
   }
   .menus_items li a::before {
@@ -445,6 +445,7 @@ blockquote p {
   }
   .menus_items li a:hover {
     color: #f93;
+    font-weight: bold;
   }
   .menus_items li a:hover::before {
     -webkit-transform: scaleX(1);
@@ -503,6 +504,7 @@ blockquote p {
   transition: all 0.2s ease-in-out;
 }
 .page article a:hover {
+  font-weight: bold;
   color: #1353d7;
 }
 .page article .highlight {
