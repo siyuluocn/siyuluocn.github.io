@@ -12,7 +12,7 @@
 }
 body {
   background-color: #fff;
-  background-image: url("/img/diamond-eyes.png");
+  background-image: url("/img/brick-wall.png");
 }
 .side-card {
   background-color: #fff;
@@ -21,4 +21,7 @@ body {
 .page {
   background-color: #fff;
   border-radius: 2px;
+}
+.author-bio {
+  text-align: center;
 }

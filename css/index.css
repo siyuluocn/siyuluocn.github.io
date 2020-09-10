@@ -10,6 +10,21 @@
   font-family: "Damion";
   src: url("/fonts/Damion-Regular.ttf");
 }
+body {
+  background-color: #fff;
+  background-image: url("/img/brick-wall.png");
+}
+.side-card {
+  background-color: #fff;
+  border-radius: 2px;
+}
+.page {
+  background-color: #fff;
+  border-radius: 2px;
+}
+.author-bio {
+  text-align: center;
+}
 .page pre,
 .page .highlight {
   overflow: auto;
@@ -290,7 +305,7 @@ blockquote p {
   margin-right: auto;
   clear: both;
   padding: 1.6rem 2rem 1rem;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 #blog_name {
   display: inline-block;
@@ -410,7 +425,7 @@ blockquote p {
     display: block;
     margin: 0 1.6rem;
     padding: 0.8rem 0;
-    color: #37474f;
+    color: #14446a;
     font-weight: bold;
     text-decoration: none;
   }
@@ -420,7 +435,7 @@ blockquote p {
     left: 0;
     bottom: 0;
     height: 4px;
-    background: #bdc1c4;
+    background: #14446a;
     width: 100%;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -429,7 +444,7 @@ blockquote p {
     transform: scaleX(0);
   }
   .menus_items li a:hover {
-    color: #5c6266;
+    color: #f93;
   }
   .menus_items li a:hover::before {
     -webkit-transform: scaleX(1);
