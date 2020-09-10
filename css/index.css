@@ -2,6 +2,14 @@
   font-family: "Open Sans Regular";
   src: url("/fonts/OpenSans-Regular.ttf");
 }
+@font-face {
+  font-family: "Romanesco";
+  src: url("/fonts/Romanesco-Regular.ttf");
+}
+@font-face {
+  font-family: "Damion";
+  src: url("/fonts/Damion-Regular.ttf");
+}
 .page pre,
 .page .highlight {
   overflow: auto;
@@ -244,13 +252,13 @@ body {
   color: #494e52;
   font-size: 1.8em;
   line-height: 1.5;
-  font-family: "Open Sans Regular", -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "SimHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  font-family: "Open Sans Regular", -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Micro YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", "Microsoft Yahei", "WenQuanYi Zen Hei Sharp", sans-serif;
   scroll-behavior: smooth;
 }
 a,
 span,
 .btn {
-  font-family: "Open Sans Regular", -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "SimHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  font-family: "Open Sans Regular", -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Micro YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", "Microsoft Yahei", "WenQuanYi Zen Hei Sharp", sans-serif;
 }
 img {
   max-width: 100%;
@@ -292,13 +300,14 @@ blockquote p {
 #blog_name a {
   display: block;
   margin: 0 1.6rem;
-  padding: 0.8rem 0;
-  color: #f5f5f5;
+  padding: 0 0;
+  color: #ebedef;
   font-weight: 600;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  font-family: "Brush Script MT";
+  font-family: "Damion";
+  font-size: 1.4em;
   text-shadow: #000 0.1em 0.1em 0.2em;
 }
 #blog_name a:hover {
@@ -497,7 +506,7 @@ blockquote p {
   text-align: right;
 }
 .page article code {
-  font-family: "Open Sans Regular", -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "SimHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  font-family: "Open Sans Regular", -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Micro YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", "Microsoft Yahei", "WenQuanYi Zen Hei Sharp", sans-serif;
   padding: 0.2rem 0.3rem;
   background: rgba(27,31,35,0.05);
   word-wrap: break-word;
