@@ -303,9 +303,8 @@ blockquote p {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  clear: both;
   padding: 1.6rem 2rem 1rem;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 #blog_name {
   display: inline-block;
